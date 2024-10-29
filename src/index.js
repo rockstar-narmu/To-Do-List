@@ -2,13 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, updateDoc, deleteDoc, getDocs, Timestamp, query, where } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD6AIbAThPFgabP5z52GSWfUGY6LMRk6d8",
-  authDomain: "to-do-list-6686b.firebaseapp.com",
-  projectId: "to-do-list-6686b",
-  storageBucket: "to-do-list-6686b.appspot.com",
-  messagingSenderId: "1029050828206",
-  appId: "1:1029050828206:web:63d4c0272a21884004f43f",
-  measurementId: "G-FTRYLRGTD8"
+ //your API
 };
 
 const app = initializeApp(firebaseConfig);
