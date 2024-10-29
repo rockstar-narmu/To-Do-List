@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+
+    <div class="container2">
+      <div class="container1">
+        <div class="add">
+          <form class="add-task-form">
+            <h3>Add Task:</h3>
+            <label for="task">Task:</label>
+            <input type="text" id="task" name="task" placeholder="Enter a task" required>
+            <label for="task-id">Task ID:</label>
+            <input type="text" id="taskId" name="taskId" placeholder="Enter task ID" required>
+            <button type="submit">Add Task</button><br><br>
+          </form>
+        </div>
+        <div class="filter">
+          <form class="filter-task-form">
+            <h3>Filter Tasks by Date:</h3>
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate">
+            
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate">
+            
+            <button type="submit">Filter Tasks</button>
+          </form>
+        </div>
+  
+        <div class="modify">
+          <form class="modify-task-form">
+            <h3>Modify Task:</h3>
+            <label for="taskId">Task ID:</label>
+            <input type="text" id="taskId" name="taskId" placeholder="Enter Task ID to modify" required>
+            <label for="modifiedTask">New Task:</label>
+            <input type="text" id="modifiedTask" name="modifiedTask" placeholder="Enter new task" required>
+            <button type="submit">Modify Task</button><br><br>
+          </form>
+        </div>
+        <div class="delete">
+          <form class="delete-task-form">
+            <h3>Delete Task:</h3>
+            <label for="taskId">Task ID:</label>
+            <input type="text" id="taskId" name="taskId" placeholder="Enter Task ID to delete" required>
+            <button type="submit">Delete Task</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="display">
+        <div><h2>Your Tasks</h2></div>
+        <table class="task-table">
+          <thead>
+            <tr>
+              <th>Task</th>
+              <th>Task ID</th>
+            </tr>
+          </thead>
+          <tbody class="task-list">
+            <!-- Task rows will be dynamically inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+</body>
+</html>
