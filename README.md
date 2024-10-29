@@ -58,23 +58,5 @@ Contributions are welcome! If you have suggestions or find issues, feel free to 
 ## License:
 This project is licensed under the MIT License. See `LICENSE` for details.
 
-## Adding and Pushing README to GitHub
-
-1. Create a new `README.md` file in your project folder with the content above.
-2. Add the file to your Git repo:
-
-   ```bash
-   git add README.md
-
-3. Commit the File:
-
-   ```bash
-   git commit -m "Add README file"
-
-4. Push it to GitHub
-
-   ```bash
-   git push origin master
-
 ## Screenshot:
 ![Screenshot 2024-10-29 192547](https://github.com/user-attachments/assets/a5c15957-4be0-4c02-ad6e-821fe3879fa6)
