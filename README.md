@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# To-Do List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple to-do list web application built using Firebase Firestore for task storage, along with HTML, CSS, and JavaScript for the frontend.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add, modify, and delete tasks
+- View tasks in a table format
+- Filter tasks by date
+- Persistent storage with Firebase Firestore
 
-### `npm start`
+## Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a local copy up and running, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js and npm should be installed.
+- A Firebase project set up with Firestore enabled.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. **Clone the repository**:
+   
+   ```bash
+   git clone https://github.com/rockstar-narmu/To-Do-List.git
+   cd To-Do-List
+   
+2. **Install dependencies**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   
+3. **Configure Firebase**:
+    - Go to the Firebase Console and create a new project.
+    - Enable Firestore in the project.
+    - Copy the Firebase configuration object and replace it in your JavaScript file where Firebase is initialized.
+    - Name the collection as 'list' or you have to change the name of your collection in the `index.js` file in src directory.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Run the Application**:
+   
+   ```bash
+   npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage:
+- Open the application in your browser.
+- Use the Add Task form to add a task along with an ID.
+- Modify or delete tasks using the corresponding forms.
+- View and filter tasks in the table format.
 
-### `npm run eject`
+## Technologies Used:
+- Frontend: HTML, CSS, JavaScript
+- Backend: Firebase Firestore
+- Hosting: Firebase Hosting (optional)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributions:
+Contributions are welcome! If you have suggestions or find issues, feel free to open an issue or a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License:
+This project is licensed under the MIT License. See `LICENSE` for details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Adding and Pushing README to GitHub
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Create a new `README.md` file in your project folder with the content above.
+2. Add the file to your Git repo:
 
-## Learn More
+   ```bash
+   git add README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Commit the File:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git commit -m "Add README file"
 
-### Code Splitting
+4. Push it to GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   git push origin master
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Screenshot:
+![Screenshot 2024-10-29 192547](https://github.com/user-attachments/assets/a5c15957-4be0-4c02-ad6e-821fe3879fa6)
