@@ -1,5 +1,4 @@
-# To-Do List Application
-
+# To-Do List Application [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 A simple to-do list web application built using Firebase Firestore for task storage, along with HTML, CSS, and JavaScript for the frontend.
 
 ## Features
